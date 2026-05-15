@@ -1,13 +1,22 @@
-.cache/
-.gen/
-.hw/
-.ip_user_files/
-.runs/
-.sim/
-.Xil/
+# 32-bit RISC-V Processor
 
-*.jou
-*.log
-*.str
-*.tmp
-*.bit
+## Overview
+This project implements a simple 32-bit RISC-V processor using Verilog HDL in Vivado.
+
+## Modules
+- ALU
+- Register File
+- Instruction Memory
+- Data Memory
+- CPU Top Module
+
+## Tools Used
+- Vivado 2023.1
+- Verilog HDL
+
+## Simulation Result
+
+![Waveform](docs/waveform.jpg.png)
+
+## Author
+Yajvan Sauri
